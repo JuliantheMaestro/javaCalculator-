@@ -11,14 +11,16 @@
 </head>
 <body>
     <h1>The Ultimate Calculator</h1>
-    <input type="text" maxlength="6" id="num1-el"></input>
-    <input type="text" maxlength="6" id="num2-el"></input>
+    <input type="text" maxlength="5" id="num1-el"></input>
+    <input type="text" maxlength="5" id="num2-el"></input>
     <br>
-    <button onclick="add()">ADD</button>
-    <button onclick="subtract()">SUBTRACT</button>
-    <br>
-    <button onclick="divide()">DIVIDE</button>
-    <button onclick="multiply()">MULTIPLY</button>
+    <div id="calculator">
+        <button onclick="add()">ADD</button>
+        <button onclick="subtract()">SUBTRACT</button>
+        <br>
+        <button onclick="divide()">DIVIDE</button>
+        <button onclick="multiply()">MULTIPLY</button>
+    </div>
     <br>
     <span id="sum-el">Sum: </span>
 
