@@ -1,1 +1,1 @@
-A simple calulator built with Javascript that has an image of a lighthouse in the background. The calculator only does simple math at this point. 
+A simple calulator built with Javascript that has an image of a lighthouse in the background. The calculator only does simple math at this point. I wrote a function for each arithmetic operator and parse the string as an input to come up with new values for the output.
